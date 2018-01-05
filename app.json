@@ -1,0 +1,26 @@
+{
+  "name": "tours-service",
+  "scripts": {
+  },
+  "env": {
+    "DOMAIN_NAME": {
+      "required": true
+    },
+    "EUREKA_URL": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+}

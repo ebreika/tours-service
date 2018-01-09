@@ -14,6 +14,6 @@ public class ToursController {
 
     @RequestMapping(method = RequestMethod.GET)
     public @ResponseBody Tour responseSingleTour() {
-        return new Tour(id.incrementAndGet(), "This is not a tour");
+        return new Tour(id.incrementAndGet(), "This is not a tour with pipeline :D");
     }
 }

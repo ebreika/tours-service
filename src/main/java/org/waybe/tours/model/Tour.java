@@ -20,6 +20,14 @@ public class Tour {
 
     private List<String> languages;
 
+    private String urlImage;
+
+    private Double cost;
+
+    private int rate;
+
+    private Boolean isShared;
+
     public Tour() {
     }
 
@@ -61,6 +69,38 @@ public class Tour {
 
     public void setLanguages(List<String> languages) {
         this.languages = languages;
+    }
+
+    public String getUrlImage() {
+        return this.urlImage;
+    }
+
+    public void setUrlImage(String urlImage) {
+        this.urlImage = urlImage;
+    }
+
+    public Double getCost() {
+        return this.cost;
+    }
+
+    public void setCost(Double cost) {
+        this.cost = cost;
+    }
+
+    public int getRate() {
+        return this.rate;
+    }
+
+    public void setRate(int rate) {
+        this.rate = rate;
+    }
+
+    public Boolean getIsShared() {
+        return this.isShared;
+    }
+
+    public void setIsShared(Boolean isShared) {
+        this.isShared = isShared;
     }
 
     @Override
